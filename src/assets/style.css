@@ -12,12 +12,110 @@
     box-sizing: border-box;
 }
 
-.serif-font {
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Utilities */
+
+.serif {
     font-family: "Abril Fatface", serif;
     font-weight: 400;
     font-style: normal;
 }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
+.flex {
+    display: flex;
+}
+
+.center {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container {
+    width: 720px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/* Debug */
+
+.debug {
+    border: 1px dashed black;
+}
+
+header {
+    height: 600px;
+    width: 100%;
+
+    nav {
+        height: 80px;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo,
+        .icon {
+            height: 30px;
+            width: 80px;
+        }
+
+    }
+
+    .jumbotron {
+        height: 520px;
+        align-items: center;
+
+        section {
+            width: 50%;
+
+            hr {
+                width: 150px;
+                height: 3px;
+                color: var(--primary-color);
+            }
+        }
+
+    }
+
+
+}
+
+h1 {
+    font-size: 40px;
+}
+
+footer {
+    height: 380px;
+
+    .nav {
+        height: 300px;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .copyright {
+        height: 80px;
+        width: 100%;
+    }
+
+}
+
+.product,
+.contacts {
+    flex-direction: column;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+}
+
+.contacts {
+    text-align: center;
 }
