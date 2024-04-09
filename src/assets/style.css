@@ -24,10 +24,6 @@ body {
     font-style: normal;
 }
 
-.flex {
-    display: flex;
-}
-
 .center {
     position: relative;
     top: 50%;
@@ -40,6 +36,23 @@ body {
     width: 720px;
     height: 100%;
     margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.flex-center {
+    align-items: center;
+    justify-content: center;
 }
 
 /* Debug */
@@ -106,16 +119,41 @@ footer {
 
 }
 
-.product,
-.contacts {
-    flex-direction: column;
-}
-
 .image {
     width: 150px;
     height: 150px;
 }
 
-.contacts {
-    text-align: center;
+.pro {
+    height: 350px;
+}
+
+.services {
+    height: 620px;
+}
+
+.products {
+    height: 680px;
+
+    .column {
+        height: 100%;
+    }
+}
+
+.reviews {
+    height: 772px;
+}
+
+.blog {
+    height: 682px;
+}
+
+.person {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.product {
+    justify-content: space-evenly;
 }
