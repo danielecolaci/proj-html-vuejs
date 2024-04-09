@@ -14,7 +14,7 @@ export default {
 
         <div class="container debug flex">
             <div class="flex debug column">
-                <div class="image debug"></div>
+                <div class="footer-image first image"></div>
                 <button>Shop our range now</button>
             </div>
             <div class="contacts flex debug text-center column">
@@ -24,7 +24,7 @@ export default {
                 <h4>Follow us</h4>
             </div>
             <div class="flex debug column">
-                <div class="image debug"></div>
+                <div class="footer-image second image"></div>
                 <button>Shop our range now</button>
             </div>
         </div>

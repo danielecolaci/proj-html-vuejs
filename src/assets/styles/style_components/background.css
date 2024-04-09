@@ -1,0 +1,73 @@
+.image {
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Header */
+
+header {
+    background-image: url(/images/jumbotron_1.jpg);
+    background-size: cover;
+}
+
+.jumbotron-img {
+    background-image: url(/images/jumbotron_image.png);
+    background-size: contain;
+}
+
+/* Main */
+
+.services {
+
+    .services-icon {
+        background-size: contain;
+    }
+
+    .services-icon.first {
+        background-image: url(/images/services_trim_cut.png);
+    }
+
+    .services-icon.second {
+        background-image: url(/images/services_wash_dry.png);
+    }
+
+    .services-icon.third {
+        background-image: url(/images/services_beard_tidy.png);
+    }
+
+}
+
+.reviews {
+
+    .person {
+        background-size: contain;
+    }
+
+    .person.first {
+        background-image: url(/images/person_john.jpg);
+    }
+
+    .person.second {
+        background-image: url(/images/person_pete.jpg);
+    }
+
+    .person.third {
+        background-image: url(/images/person_mark.jpg);
+    }
+
+}
+
+
+/* Footer */
+
+.footer-image {
+    background-size: cover;
+}
+
+.footer-image.first {
+    background-image: url(/images/footer_1.png);
+}
+
+.footer-image.second {
+    background-image: url(/images/footer_2.png);
+}
