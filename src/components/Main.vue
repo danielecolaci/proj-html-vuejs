@@ -102,7 +102,7 @@ export default {
                                 eligendi
                                 quibusdam, itaque quaerat deserunt aut cumque quasi.</p>
                             <div class="person debug"></div>
-                            <h5>John Doe</h5>
+                            <h5>Pete Jones</h5>
                         </section>
 
                         <section class="text-center flex column flex-center">
@@ -110,7 +110,7 @@ export default {
                                 eligendi
                                 quibusdam, itaque quaerat deserunt aut cumque quasi.</p>
                             <div class="person debug"></div>
-                            <h5>John Doe</h5>
+                            <h5>Mark Wilson</h5>
                         </section>
                     </div>
                 </div>
