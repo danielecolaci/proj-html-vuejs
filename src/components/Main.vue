@@ -11,12 +11,13 @@ export default {
 
 <template>
     <main>
-        <div class="pro debug">
-            <div class="center section-title">
+        <div class="pro debug flex column">
+            <div class="section-title debug flex column flex-center">
                 <h4>Award Winning</h4>
                 <h1 class="serif">Pro Barbers</h1>
                 <button>Meet your new barber</button>
             </div>
+            <div class="triangle debug"></div>
         </div>
 
         <div class="services debug">
@@ -47,6 +48,7 @@ export default {
                     <button>Read about our services</button>
                 </div>
             </div>
+            <div class="triangle debug"></div>
         </div>
 
         <div class="products debug">
@@ -116,7 +118,7 @@ export default {
         </div>
 
         <div class="blog debug">
-
+            <div class="triangle reverse debug"></div>
             <div class="container flex debug column">
                 <div class="center">
                     <div class="section-title text-center">

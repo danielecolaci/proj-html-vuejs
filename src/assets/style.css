@@ -95,7 +95,6 @@ header {
 
     }
 
-
 }
 
 h1 {
@@ -126,10 +125,13 @@ footer {
 
 .pro {
     height: 350px;
+    background-color: var(--secondary-color);
+    position: relative;
 }
 
 .services {
     height: 620px;
+    position: relative;
 }
 
 .products {
@@ -146,6 +148,7 @@ footer {
 
 .blog {
     height: 682px;
+    background-color: var(--light);
 }
 
 .person {
@@ -156,4 +159,22 @@ footer {
 
 .product {
     justify-content: space-evenly;
+}
+
+.triangle {
+    height: 62px;
+    width: 100%;
+    background-image: url(/public/triangle.svg);
+    position: absolute;
+    bottom: 0;
+}
+
+.reverse {
+    transform: rotate(180deg);
+    position: relative;
+    top: 0;
+}
+
+.section-title {
+    margin: auto;
 }
