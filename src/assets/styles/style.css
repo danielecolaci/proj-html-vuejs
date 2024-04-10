@@ -177,11 +177,6 @@ footer {
     }
 }
 
-/* footer .debug,
-header .debug {
-    border: 1px dashed white;
-} */
-
 .copyright {
     height: 80px;
     width: 100%;
@@ -196,11 +191,19 @@ header .debug {
 .pro {
     height: 350px;
     position: relative;
+
+    .section-title {
+        margin-top: 60px;
+    }
 }
 
 .services {
     height: 620px;
     position: relative;
+
+    .center {
+        margin-top: -62px;
+    }
 
     .triangle {
         background-image: url(/triangle-black.svg);
@@ -214,6 +217,10 @@ header .debug {
 .products {
     height: 680px;
 
+    .center {
+        margin-top: -31px;
+    }
+
     .column {
         height: 100%;
     }
@@ -223,8 +230,35 @@ header .debug {
     }
 }
 
+.butter {
+    height: 300px;
+
+    .container {
+        margin-top: -50px;
+        border-top: 3px solid var(--primary-color);
+        background-color: var(--black);
+
+        .section-title {
+            height: 100%;
+            width: calc(100% - 300px);
+            padding: 40px;
+
+            h1,
+            button {
+                margin-top: 5px;
+            }
+
+        }
+
+    }
+}
+
 .reviews {
-    height: 772px;
+    height: 472px;
+
+    .center {
+        margin-top: 31px;
+    }
 }
 
 .services p,
@@ -236,6 +270,10 @@ header .debug {
 .blog {
     height: 682px;
     background-color: var(--light);
+
+    .center {
+        margin-top: -31px;
+    }
 
     .blog-post {
         justify-content: space-between;

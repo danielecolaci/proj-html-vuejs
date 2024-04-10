@@ -8,21 +8,22 @@
 header {
     background-image: url(/images/jumbotron_1.jpg);
     background-size: cover;
-}
 
-.logo {
-    width: 108px;
-    height: 38px;
-    margin: 10px 0;
-    background-size: cover;
-    background-image: url(/images/avadabarbers-logo-x2.png);
-}
+    .logo {
+        width: 108px;
+        height: 38px;
+        margin: 10px 0;
+        background-size: cover;
+        background-image: url(/images/avadabarbers-logo-x2.png);
+    }
 
-.jumbotron-img {
-    background-image: url(/images/jumbotron_image.png);
-    background-size: contain;
-    height: 488px;
-    width: 334px;
+    .jumbotron-img {
+        background-image: url(/images/jumbotron_image.png);
+        background-size: contain;
+        height: 488px;
+        width: 334px;
+    }
+
 }
 
 /* Main */
@@ -82,6 +83,24 @@ header {
     }
 }
 
+.butter {
+
+    .butter-back {
+        height: 100%;
+        width: 300px;
+        background-image: url(/images/butter_background.jpg);
+        background-size: cover;
+
+        .butter-image {
+            width: 260px;
+            height: 260px;
+            background-image: url(/images/shaving_butter.png);
+            background-size: contain;
+        }
+
+    }
+}
+
 .reviews {
 
     .person {
@@ -128,17 +147,20 @@ header {
 }
 
 /* Footer */
+footer {
 
-.footer-image {
-    background-size: cover;
-    width: 230px;
-    height: 180px;
-}
+    .footer-image {
+        background-size: cover;
+        width: 230px;
+        height: 180px;
+    }
 
-.footer-image.first {
-    background-image: url(/images/footer_1.png);
-}
+    .footer-image.first {
+        background-image: url(/images/footer_1.png);
+    }
 
-.footer-image.second {
-    background-image: url(/images/footer_2.png);
+    .footer-image.second {
+        background-image: url(/images/footer_2.png);
+    }
+
 }

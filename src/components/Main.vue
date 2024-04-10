@@ -89,8 +89,23 @@ export default {
             </div>
         </div>
 
-        <div class="reviews debug">
-            <div class="container flex debug column">
+        <div class="butter">
+            <div class="container flex">
+                <div class="butter-back image flex flex-center">
+                    <div class="butter-image image"></div>
+                </div>
+                <div class="section-title">
+                    <h4>this months featured product</h4>
+                    <h1 class="serif">Shaving Butter</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus velit hic repudiandae ipsa
+                        molestiae voluptates temporibus veritatis ex esse alias.</p>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="reviews">
+            <div class="container flex column">
                 <div class="center">
                     <div class="section-title text-center">
                         <h4>what people say</h4>
