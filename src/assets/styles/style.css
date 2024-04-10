@@ -11,6 +11,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    transition: all 0.5s ease;
 }
 
 body {
@@ -66,7 +67,6 @@ hr {
 i {
     color: var(--light);
     cursor: pointer;
-    transition: all 0.5s ease;
 
     &:hover {
         color: var(--primary-color);
@@ -84,7 +84,6 @@ button {
     padding: 12px 25px;
     margin: 15px auto;
     cursor: pointer;
-    transition: background-color 0.5s ease, color 0.5s ease;
 
     &:hover {
         background-color: var(--primary-color);
@@ -99,13 +98,6 @@ button {
 .blog button:hover {
     color: var(--light);
 }
-
-/* Debug */
-
-.debug {
-    border: 1px dashed black;
-}
-
 
 header {
     height: 600px;
@@ -129,6 +121,7 @@ header {
         .icon {
             gap: 20px;
         }
+
     }
 
     .jumbotron {
@@ -153,10 +146,9 @@ header {
     position: fixed;
     bottom: 0;
     right: 20%;
-    z-index: 9999;
+    z-index: 999;
     cursor: pointer;
 }
-
 
 footer {
     height: auto;
@@ -166,26 +158,24 @@ footer {
         justify-content: space-between;
         align-items: center;
         height: 300px;
+
+        p {
+            font-size: 10px;
+        }
+
+        i {
+            margin: 20px auto;
+        }
+
     }
 
-    p {
-        font-size: 10px;
+    .copyright {
+        height: 80px;
+        width: 100%;
+        color: var(--secondary-color);
+        background-color: #161718;
     }
 
-    i {
-        margin: 20px auto;
-    }
-}
-
-.copyright {
-    height: 80px;
-    width: 100%;
-    color: var(--secondary-color);
-    background-color: #161718;
-}
-
-.footer-image {
-    margin-bottom: 15px;
 }
 
 .pro {
@@ -302,4 +292,40 @@ footer {
 
 .section-title {
     margin: auto;
+}
+
+.modale {
+    background-color: rgba(0, 0, 0, 0.9);
+    backdrop-filter: blur(5px);
+    width: 100vw;
+    height: 100vh;
+    gap: 24px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 99999;
+
+    h3 {
+        font-size: 16px;
+        color: var(--light);
+        cursor: pointer;
+
+        &:hover {
+            color: var(--secondary-color);
+            font-size: 18px;
+        }
+
+    }
+
+    .current {
+        color: var(--primary-color);
+    }
+
+    i {
+        position: absolute;
+        top: 40px;
+        right: 40px;
+        font-size: 20px;
+    }
+
 }

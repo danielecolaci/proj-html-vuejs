@@ -9,14 +9,6 @@ header {
     background-image: url(/images/jumbotron_1.jpg);
     background-size: cover;
 
-    .logo {
-        width: 108px;
-        height: 38px;
-        margin: 10px 0;
-        background-size: cover;
-        background-image: url(/images/avadabarbers-logo-x2.png);
-    }
-
     .jumbotron-img {
         background-image: url(/images/jumbotron_image.png);
         background-size: contain;
@@ -24,6 +16,14 @@ header {
         width: 334px;
     }
 
+}
+
+.logo {
+    width: 108px;
+    height: 38px;
+    margin: 10px 0;
+    background-size: cover;
+    background-image: url(/images/avadabarbers-logo-x2.png);
 }
 
 /* Main */
@@ -153,6 +153,7 @@ footer {
         background-size: cover;
         width: 230px;
         height: 180px;
+        margin-bottom: 15px;
     }
 
     .footer-image.first {
