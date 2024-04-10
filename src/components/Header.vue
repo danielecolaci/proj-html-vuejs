@@ -11,10 +11,13 @@ export default {
 
 <template>
     <header>
-        <div class="debug container">
-            <nav class="debug flex">
-                <div class="debug logo"></div>
-                <div class="debug icon"></div>
+        <div class="container">
+            <nav class="flex">
+                <div class="logo image"></div>
+                <div class="icon flex">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-solid fa-bars"></i>
+                </div>
             </nav>
             <div class="jumbotron flex image">
                 <section>

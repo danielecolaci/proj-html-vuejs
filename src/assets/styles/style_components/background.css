@@ -10,12 +10,25 @@ header {
     background-size: cover;
 }
 
+.logo {
+    width: 108px;
+    height: 38px;
+    margin: 10px 0;
+    background-size: cover;
+    background-image: url(/images/avadabarbers-logo-x2.png);
+}
+
 .jumbotron-img {
     background-image: url(/images/jumbotron_image.png);
     background-size: contain;
 }
 
 /* Main */
+
+.pro {
+    background-image: url(/images/pro_background.jpg);
+    background-size: cover;
+}
 
 .services {
 
@@ -35,6 +48,34 @@ header {
         background-image: url(/images/services_beard_tidy.png);
     }
 
+}
+
+.products {
+    background-image: url(/images/products_background.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+
+    .product-image {
+        width: 270px;
+        height: 270px;
+        background-size: cover;
+    }
+
+    .product-image.first {
+        background-image: url(/images/brush_dark.png);
+    }
+
+    .product-image.second {
+        background-image: url(/images/scissors.png);
+    }
+
+    .product-image.third {
+        background-image: url(/images/hot_oil_dark.png);
+    }
+
+    .product-image.fourth {
+        background-image: url(/images/straight_razor_dark.png);
+    }
 }
 
 .reviews {
@@ -57,6 +98,27 @@ header {
 
 }
 
+.blog {
+
+    .blog-image {
+        width: 100%;
+        height: 143px;
+        margin: 10px auto;
+        background-size: cover;
+    }
+
+    .blog-image.first {
+        background-image: url(/images/blog_1.jpg);
+    }
+
+    .blog-image.second {
+        background-image: url(/images/blog_2.jpg);
+    }
+
+    .blog-image.third {
+        background-image: url(/images/blog_3.jpg);
+    }
+}
 
 /* Footer */
 

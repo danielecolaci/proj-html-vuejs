@@ -11,7 +11,7 @@ export default {
 
 <template>
     <main>
-        <div class="pro flex column">
+        <div class="pro image flex column">
             <div class="section-title flex column flex-center">
                 <h4>Award Winning</h4>
                 <h1 class="serif">Pro Barbers</h1>
@@ -55,27 +55,31 @@ export default {
             <div class="triangle"></div>
         </div>
 
-        <div class="products debug">
+        <div class="products image">
             <div class="flex column">
                 <div class="center">
                     <div class="section-title text-center">
                         <h4>we have you covered</h4>
                         <h1 class="serif">Avada Grooming Products</h1>
                     </div>
-                    <div class="flex product">
+                    <div class="flex product flex-center">
                         <section class="text-center">
+                            <div class="product-image image first"></div>
                             <h2 class="serif">Brush</h2>
                             <p>$15.00</p>
                         </section>
                         <section class="text-center">
+                            <div class="product-image image second"></div>
                             <h2 class="serif">Scissors</h2>
                             <p>$85.00</p>
                         </section>
                         <section class="text-center">
+                            <div class="product-image image third"></div>
                             <h2 class="serif">Hot Oil</h2>
                             <p>$15.00</p>
                         </section>
                         <section class="text-center">
+                            <div class="product-image image fourth"></div>
                             <h2 class="serif">Straight Razor</h2>
                             <p>$30.00</p>
                         </section>
@@ -124,28 +128,31 @@ export default {
             </div>
         </div>
 
-        <div class="blog debug">
+        <div class="blog">
             <div class="triangle reverse"></div>
-            <div class="container flex debug column">
+            <div class="container flex column">
                 <div class="center">
                     <div class="section-title text-center">
                         <h4>tales from the barber shop</h4>
                         <h1 class="serif">Recent Blog Post</h1>
                     </div>
-                    <div class="flex">
-                        <section class="text-center">
+                    <div class="blog-post flex">
+                        <section class="post text-center">
+                            <div class="blog-image image first"></div>
                             <h2 class="serif">Avada Barbers Now Open</h2>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita cumque at architecto
                                 qui,
                                 repellat optio.</p>
                         </section>
-                        <section class="text-center">
+                        <section class="post text-center">
+                            <div class="blog-image image second"></div>
                             <h2 class="serif">Choosing The Right Barber</h2>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita cumque at architecto
                                 qui,
                                 repellat optio.</p>
                         </section>
-                        <section class="text-center">
+                        <section class="post text-center">
+                            <div class="blog-image image third"></div>
                             <h2 class="serif">Quick Service Guide</h2>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita cumque at architecto
                                 qui,

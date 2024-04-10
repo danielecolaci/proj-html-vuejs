@@ -13,17 +13,24 @@ export default {
     <footer>
 
         <div class="container debug flex">
-            <div class="flex debug column">
+            <div class="flex column">
                 <div class="footer-image first image"></div>
                 <button>Shop our range now</button>
             </div>
-            <div class="contacts flex debug text-center column">
+            <div class="contacts flex text-center column">
+                <div class="logo image"></div>
                 <p>Avada Barbers<br>123 New York Street<br>New York City<br>info@yourwebsite.com<br>+1
                     (555)
                     555-1212</p>
                 <h4>Follow us</h4>
+                <div class="social flex">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
             </div>
-            <div class="flex debug column">
+            <div class="flex column">
                 <div class="footer-image second image"></div>
                 <button>Shop our range now</button>
             </div>
