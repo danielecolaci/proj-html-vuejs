@@ -12,7 +12,7 @@ export default {
 <template>
     <footer>
 
-        <div class="container debug flex">
+        <div class="container flex">
             <div class="flex column">
                 <div class="footer-image first image"></div>
                 <button>Shop our range now</button>
@@ -23,7 +23,7 @@ export default {
                     (555)
                     555-1212</p>
                 <h4>Follow us</h4>
-                <div class="social flex">
+                <div class="icon flex">
                     <i class="fa-brands fa-facebook-f"></i>
                     <i class="fa-brands fa-twitter"></i>
                     <i class="fa-brands fa-youtube"></i>
