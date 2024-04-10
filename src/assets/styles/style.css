@@ -329,3 +329,7 @@ footer {
     }
 
 }
+
+.overflow-none {
+    overflow: hidden;
+}

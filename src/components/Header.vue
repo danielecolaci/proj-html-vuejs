@@ -8,10 +8,12 @@ export default {
     },
     methods: {
         modalOpen() {
-            this.modal = !this.modal
+            this.modal = !this.modal;
+            document.body.classList.toggle('overflow-none', this.modal)
         },
         modalClose() {
-            this.modal = false
+            this.modal = false;
+            document.body.classList.remove('overflow-none')
         }
     }
 }
