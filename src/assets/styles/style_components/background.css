@@ -6,8 +6,8 @@
 /* Header */
 
 header {
-    background-image: url(/images/jumbotron_1.jpg);
     background-size: cover;
+    transition: background-image 1s ease;
 
     .jumbotron-img {
         background-image: url(/images/jumbotron_image.png);

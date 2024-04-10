@@ -3,7 +3,8 @@ export default {
     name: 'Header',
     data() {
         return {
-            modal: false
+            modal: false,
+            background: 1
         }
     },
     methods: {
@@ -14,7 +15,14 @@ export default {
         modalClose() {
             this.modal = false;
             document.body.classList.remove('overflow-none')
+        },
+        carousel() {
+            this.background = (this.background % 4) + 1;
+            document.getElementById('header').style.backgroundImage = `url(/images/jumbotron_${this.background}.jpg)`
         }
+    },
+    mounted() {
+        setInterval(this.carousel, 5000)
     }
 }
 </script>
